@@ -5,10 +5,10 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 在终端进入项目文件夹，安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 安装后，输入下命令，会热启动localhost:8080 启动项目
 npm run dev
 
 # build for production with minification
