@@ -10,5 +10,3 @@ npm install
 
 # 安装后，输入下命令，会热启动localhost:8080，打开项目页面
 npm run dev
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
