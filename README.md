@@ -8,20 +8,7 @@
 # 在终端进入项目文件夹，安装依赖
 npm install
 
-# 安装后，输入下命令，会热启动localhost:8080 启动项目
+# 安装后，输入下命令，会热启动localhost:8080，打开项目页面
 npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
