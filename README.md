@@ -1,6 +1,6 @@
-# my-vue-demo1
+# vue-modal
 
-> A Vue.js project
+> 基于vue 2.0的模态框，通过props和$emit进行父子组件之间的信息互相传递
 
 ## Build Setup
 
