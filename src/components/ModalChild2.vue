@@ -92,11 +92,7 @@
         },
         methods:{
             showModal:function(){
-                if(this.showContainer){
-                    this.showContainer=false;
-                }else{
-                    this.showContainer=true;
-                }
+                this.myModal=!this.myModal;
             },
             showModal1:function(){
                 if(this.showContainer){
