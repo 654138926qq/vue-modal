@@ -87,14 +87,14 @@
         props:['msg'],
         watch:{//观察msg的值变化
            msg:{
-              handler:function(val,oldVal){
+              handler(val,oldVal){
                  console.log('modalMsg的值变化为'+val)
               },
            deep:true
            }
         },
         methods:{
-           closeModal:function(){//
+           closeModal(){//
               this.$emit('close');//在子组件中触发父组件中的close事件
            }
         }
