@@ -25,23 +25,17 @@ export default {
   },
   watch:{
      myModal:{
-        handler:function(val,oldVal){
+        handler(val,oldVal){
            console.log('myModal的值变化为'+val)
         },
         deep:true
      }
   },
   methods:{
-     showModal:function(){
-         if(this.myModal){
-             this.myModal=false;
-             console.log('关闭模态框');
-         }else{
-             this.myModal=true;
-             console.log('打开模态框');
-         }
+     showModal(){
+         this.myModal=!this.myModal;
      },
-     closeModal:function(){//定义close的事件函数
+     closeModal(){//定义close的事件函数
          this.myModal=false;
      }
   }
